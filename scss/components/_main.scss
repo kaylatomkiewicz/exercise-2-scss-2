@@ -1,0 +1,35 @@
+body {
+	background-image: url(../images/yellow.jpg);
+	background-size: 100%;
+}
+
+.target {
+	text-align: center;
+	color: #fff;
+}
+
+.target i {
+	font-size: 20rem;
+	position: relative;
+	top: 10rem;
+	color: #fff;
+	transition: color linear .5s;
+}
+
+.target i:hover {
+	color: #EECE9F;
+}
+
+.type p {
+	text-align: center;
+	font-size: 2rem;
+	position: relative;
+	top: 17rem;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.icon-bull-01:before { content: '\e800'; } /* '' */
